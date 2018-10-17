@@ -20,15 +20,26 @@
 //   });
 // });
 
+// $(document).ready(function() {
+//   $("#name-form").submit(function(event) {
+//     var firstName = $("input#firstName").val();
+//     var lastName = $("input#lastName").val();
+//
+//     $(".fName").text(firstName);
+//     $(".lName").text(lastName);
+//
+//     $(".postcard").show();
+//
+//     event.preventDefault();
+//   });
+// });
+
+
 $(document).ready(function() {
-  $("#name-form").submit(function(event) {
-    var firstName = $("input#firstName").val();
-    var lastName = $("input#lastName").val();
+  $("#shouting").submit(function(event) {
+    var typeSomething = $("input#something").val();
 
-    $(".fName").text(firstName);
-    $(".lName").text(lastName);
-
-    $(".postcard").show();
+    $(".shoutreturn").text(typeSomething);
 
     event.preventDefault();
   });
