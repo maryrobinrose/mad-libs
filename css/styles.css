@@ -1,0 +1,10 @@
+#story {
+  display: none;
+}
+
+.postcard {
+  display: none;
+  background-color: red;
+  color: white;
+  width: 300px;
+}
